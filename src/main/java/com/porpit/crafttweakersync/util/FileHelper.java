@@ -96,7 +96,7 @@ public class FileHelper {
             if(!dir.exists()&&dir.isDirectory()){//判断文件目录是否存在
                 dir.mkdirs();
             }
-            file = new File(filePath+"\\"+fileName);
+            file = new File(filePath+File.separator+fileName);
             fos = new FileOutputStream(file);
             bos = new BufferedOutputStream(fos);
             bos.write(bfile);
