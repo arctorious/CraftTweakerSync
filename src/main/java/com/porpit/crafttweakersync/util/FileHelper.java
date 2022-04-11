@@ -96,7 +96,8 @@ public class FileHelper {
             if(!dir.exists()&&dir.isDirectory()){//判断文件目录是否存在
                 dir.mkdirs();
             }
-            file = new File(filePath+File.separator+fileName);
+            //file = new File(filePath+File.separator+fileName);// btw the server passes path as String not Path, File.separator or '\\' (dos/windows style separator) will cause glitch if the server and client are running on different OS(or versions of this mod)
+            file = new File(filePath+"/"+fileName);//since modern windows and *nix support '/' (unix style separator) as file separator, we can fix the problem mentioned on previous line
             fos = new FileOutputStream(file);
             bos = new BufferedOutputStream(fos);
             bos.write(bfile);
