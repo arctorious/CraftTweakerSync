@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ AnotherWorkaround ]
   pull_request:
-    branches: [ master ]
+    branches: [ AnotherWorkaround ]
 
 jobs:
   releaseJar:
