@@ -2,13 +2,13 @@
 {
   "modid": "crafttweakersync",
   "name": "CraftTweakerSync,
-  "description": "CraftTweaker 's Script synchronize mod.",
+  "description": "sync",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["PorPit(泼皮)"],
-  "credits": "用于自动同步服务器CraftTweaker的Script 文件到客户端",
+  "authorList": ["PorPit"],
+  "credits": "SYNC",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
