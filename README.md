@@ -1,4 +1,4 @@
-# CraftTweakerSync|CT脚本同步MOD
+# CraftTweakerSync|CT脚本同步MOD 
 A MineCraft mod porject|我的世界模组
 
 此mod主要功能为自动从服务端同步CT脚本到客户端(由于CT新版本的缘故,如果有变动需要重启生效)
