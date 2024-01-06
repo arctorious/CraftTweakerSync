@@ -5,7 +5,6 @@ A MineCraft mod porject|我的世界模组
 
 support minecraft version：1.12.2
 
-
 支持游戏版本： 1.12.2
 
 Contacts|联系方式:<br/>
